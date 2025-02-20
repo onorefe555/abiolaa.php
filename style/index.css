@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.151);
+    height: 180px;
+    overflow-x: hidden;
+    /* position: fixed;
+    overflow: hidden; */  
+}
+header .header_container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+.section { /* All sections, not only section-a */
+    position: absolute;
+    top: 5rem;
+    left: 0px;
+    
+    height: 100px;
+    width: 100%;
+    
+    text-align: center;
+    
+    transition: 1.7s ease;
+    transform: translateX(0);
+  }
+  
+  /*
+  .section-a {
+    height: 100px;
+    width: 90%;
+    transition: 1.7s ease;
+    margin: auto;
+    position: relative;
+    transform: translateX(0);
+  }
+  */
+  
+  .text {
+    color: rgba(255, 68, 0, 0.849);
+    margin: auto;
+    font-size: 13px;
+    line-height: 28px;
+    font-style: italic;
+    /*Animation*/
+    transition: all 0.75s ease;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 800;
+    text-align: center;
+    transform: translateX(calc(100vw)); /* Start out of screen */
+  }
+.header_container .slide{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
+header img{
+    width: 20%;
+}
+.header_container .doctor{
+    display: flex;
+    flex-direction: row;
+    padding-left: 6rem;
+}
+.header_container .doctor img{
+    width: 35%;
+}
+.header_container .doctor p{
+    margin-top: 5rem;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+.dashbord_container{
+    padding: 3px;
+    background-color: rgba(235, 227, 227, 0.877);
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.dashbord{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-right: 2rem;
+    width: 25%;
+    padding: 0.1rem;
+    /* position: fixed;
+    overflow: hidden; */
+}
+.dashbord h3{
+    font-size: 25px;
+    color: rgba(0, 0, 255, 0.596);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dashbord button{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    margin-right: 2rem;
+    border-radius: 3px;
+    border: solid 0.3px rgb(230, 220, 220);
+}
+.dashbord #dash{
+    color: rgba(0, 0, 255, 0.822);
+    font-weight: bolder;
+}
+.dashbord .current{
+    border-bottom: 1px solid blue;
+}
+.dashbord button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.dashbord img{
+    width: 55%;
+    margin-left: 2rem;
+}
+.dashbord p{
+    font-size: 17px;
+    font-style: italic;
+    padding: 1rem;
+}
+.app_content{
+    display: flex;
+    flex-direction: column;
+}
+.app_content .app_content_header{
+    color: rgba(0, 0, 255, 0.596);
+    margin-bottom: -1px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 3rem;
+}
+.app_content p{
+    font-size: 13px;
+}
+.app_earning-content{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    width: 100%;
+}
+.app_earning-content div{
+    padding: 3rem;
+    background-color:rgba(0, 0, 255, 0.596) ;
+    margin: 1.5rem;
+    height: 55px;
+    width: 60%;
+    border-radius: 1rem;
+    color: #ffff;
+}
+.app_earning-content #patient{
+    background-color: rgba(172, 16, 16, 0.582);
+}
+.app_earning-content h3{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.app_earning-content p{
+    font-size: 16px;
+}
+.patient_wepapp_histogram{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background:white ;
+    margin: 1rem;
+}
+.patient_wepapp_histogram div{
+    margin: 1rem;
+}
+.patient_people img{
+    width: 15%;
+}
+.patient_diseases_piechart{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background:white ;
+    margin: 1rem; 
+}
+.piechart_figure{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+.piechart_figure h3, p{
+    margin: 1rem;
+}
+

@@ -1,0 +1,8 @@
+.doctor-profile .header{
+    text-align: center;
+    font-size: 25px;
+    color: rgba(0, 0, 255, 0.836);
+}
+.doctor-profile img{
+    width: 30%;
+}

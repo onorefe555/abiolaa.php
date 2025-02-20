@@ -1,0 +1,92 @@
+.container{
+    background:url(./img/y.jpeg);
+    background-repeat:no-repeat;
+    background-position: center ;
+    background-size:cover;
+    width :800px;
+    margin :10px auto;
+    min-height:20px;
+    padding :20px;
+} 
+.input-cont{
+    display:flex;
+    justify-content:space-between;
+    margin:5px;
+    padding:10px;
+    flex:1;
+}
+.input-cont div{
+    flex-direction: column;
+    padding: 0.2rem;
+    margin-right: 2rem;
+}
+.input-cont input{
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+}
+.li_container{
+    display :flex;
+    flex-direction: column;
+}
+.header_personal_health{
+    color: rgba(0, 0, 255, 0.842);
+    font-size: 20px;
+}
+.h3{
+    text-align: center ;
+    color: orangered;
+    font-size:22px;
+}
+     p{
+    text-align: center ;
+    color: black;
+    font-size:18px;
+     }
+.btn_container {
+    display :flex;
+    justify-content:space-between;
+}
+.btn_container button{
+background-color: black;
+padding: 1rem;
+width: 100%;
+color: blue;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.btn_container button:hover{
+    background-color: rgba(255, 68, 0, 0.801);
+}
+
+label{
+    color:black;
+    font-size: 18px;
+}
+ul{
+    color:black;
+    color:rgba(0, 0, 0, 0.788); 
+}
+ul li{
+    padding: 3px;
+    font-size: 18px;
+    line-height: 29px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+ul .list_info{
+    font-weight: bolder;
+}
+::placeholder {
+    background: black;
+    padding:10px;
+    color:blue;
+}
+input{
+    color: purple ;
+    background: black;
+    color:white;
+}
+
